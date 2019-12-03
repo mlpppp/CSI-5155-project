@@ -856,7 +856,7 @@ def Sample2c(data, model):
 
 
 def oneClass(data):
-#test the best k in KNN to use
+#test one-class learning
     from sklearn.svm import OneClassSVM
 
     X, y = npData2c(data)
